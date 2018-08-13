@@ -47,11 +47,11 @@ class GardenGnome
     def shout 
       "GNARLY!!!"
     end 
-    # def initialize(name,age)
-    #   @name = name 
-    #   @age = age 
-    #   puts "Hello humans, my name is #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
-    # end 
+    def initialize(name,age)
+      @name = name 
+      @age = age 
+      puts "Hello humans, my name is #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
+    end 
       
   end 
   
